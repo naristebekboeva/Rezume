@@ -1,0 +1,23 @@
+body {
+    background-color:#c7d9eb;
+}
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-color: grey;
+  border-width: 3px;
+  width: 5%;
+}
+h1 {
+ color:darkslateblue;
+}
+
+h3 {
+color:rgb(114, 51, 6);
+}
+
+p {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+color:rgb(34, 28, 28);
+}
