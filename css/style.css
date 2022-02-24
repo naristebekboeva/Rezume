@@ -1,23 +1,49 @@
+html{
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
 body {
-    background-color:#c7d9eb;
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
 }
-hr {
-  border-style: none;
-  border-top-style: dotted;
-  border-color: grey;
-  border-width: 3px;
-  width: 5%;
+.container {
+  width: 1140px;
+  margin: o auto;
+ 
+  }
+.header a {
+color:#fff;
+text-decoration: none;
 }
-h1 {
- color:darkslateblue;
+.header-navigation {
+padding: 20 0;
+background-color: #174180;
+color:#fff
 }
 
-h3 {
-color:rgb(114, 51, 6);
+.header-logo {
+  float: left;
 }
 
-p {
-  font-family: 'Times New Roman', Times, serif;
-  font-size: 20px;
-color:rgb(34, 28, 28);
+.menu {
+margin: 0;
+padding: 0;
+list-style: none;
+font-size: 0;
 }
+
+.menu-item {
+  display: inline-block;
+}
+
+.menu-link {
+  text-transform: uppercase;
+  padding: 0 15px;
+  font-size: 16px;
+}
+
