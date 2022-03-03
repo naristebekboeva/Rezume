@@ -1,6 +1,6 @@
 :root {
   --accent: #174180;
-  --accent: #3764a7;
+  --accent-light: #3764a7;
   --pure-white: #fff;
 }
 
@@ -18,17 +18,25 @@ html {
 body {
   margin: 0;
   font-family: 'Open Sans', sans-serif;
-  margin: 0;
+  color: var(--accent)
 }
 
 .container {
   width: 1140px;
   margin: o auto;
+  padding: 0 15px;
+}
+.section {
+  padding: 60px 0;
+}
+.section-title {
+  text-transform: uppercase;
+  text-align: center;
 }
 
 .header {
-background-color:#174180;
-text-decoration: none;
+background-color: var(--accent);
+
 }
 
 .header a {
@@ -37,9 +45,9 @@ text-decoration: none;
 }
 
 .header-nav {
-padding: 11 0;
+padding: 15px 0;
 display: flex;
-justify-content: space-around;
+justify-content: space-between;
 align-items: center;
 }
 
@@ -61,8 +69,7 @@ letter-spacing: 3px;
   width: 78%;
   display: flex;
   flex-wrap: wrap;
-  justify-content: flex-end;
-  gap: 20px;
+  justify-content: center;
   margin: 0;
   padding: 0;
   list-style: none;
@@ -79,3 +86,87 @@ letter-spacing: 3px;
 .header-menu-link:hover {
   background-color: var(--accent-light);
 }
+
+.intro {
+  padding: 60px 0;
+}
+.intro-inner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.intro-left {
+  width: 30%;
+
+}
+.intro-img {
+ width: 300px; 
+ height: 300px;
+ border-radius: 50%;
+}
+.intro-right {
+  width: 60%;
+}
+.intro-right h1,
+.intro-right h3 {
+  margin: 0 0 10px;
+}
+ .intro-right p {
+ margin: 0;
+ }
+ .contacts {
+   text-align: center;
+   margin-bottom: 60px;
+ }
+ .contacts ul {
+   display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+   gap: 30px;
+   margin: 0;
+   padding: 0;
+   list-style: none;
+ }
+ .contacts li {
+   text-align: center;
+
+ }
+ .skills {
+   text-align: center;
+   color: var(--pure-white);
+   background-color: var(--accent)
+ }
+ .skills ul {
+   display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+   gap: 10px;
+   margin: 0;
+   padding: 0;
+   list-style: none;
+ }
+ .skills li {
+padding: 10px 15px;
+background-color: var(--accent-light);
+border-radius: 4px;
+ }
+ .code {
+text-align: center;
+ }
+ .code p {
+   font-style: italic;
+ }
+ .code b {
+   font-style: normal;
+ }
+ .code pre {
+   width: 60%;
+   margin: 0 auto;
+   padding: 10px;
+   text-align: left;
+   font-size: 1.2em;
+   color: var(--pure-white);
+   background-color: var(--accent);
+   border-radius: 6px;
+ }
