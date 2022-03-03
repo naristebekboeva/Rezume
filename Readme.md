@@ -1,2 +1,2 @@
  # Deployed Link
- https://naristebekboeva.github.io/Rezume/
+  https://naristebekboeva.github.io/Rezume/
