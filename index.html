@@ -40,6 +40,7 @@
                 </div>
             </div>
             </section>
+
             <section class="contacts">
                 <div class="container">
                     <h2 class="section-title">Contacts</h2>
@@ -59,6 +60,7 @@
                     </ul>
                 </div>
             </section>
+
             <section id="skills" class="skills section">
                 <div class="container">
                     <h2 section-title>Skills</h2>
@@ -73,79 +75,95 @@
         <li>UI/UX Design</li>
         <li>Soft skills</li>
           </ul>
-                </div>
-            </section>
+        </div>
+        </section>
+
             <section id="code" class="code section">
                 <div class="container">
                     <h2 class="section-title">Code example</h2>
-                    <p><b>Task:</b> Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, facere?</p>
+                    <p><b>Task:</b>  Function</p>
                 <pre>
-                    function multiply(a,b)
-                    return a*b;
+                    var myObj = {
+                        callMeMaybe: function () {
+                            var myRef = this;
+                            var val = setTimeout(function () { 
+                                console.log('Время выходит!'); 
+                                myRef.callMeMaybe();
+                            }, 1000);
+                        }
+                    };
                 </pre>
                 </div>
             </section>
-            </main>    
-               
-               
+
+            <section id="portfolio" class="portfolio section">
+                <div class="container">
+                    <h2 class="section-title">Portfolio</h2>
+                   <section class="blog">
+                        <div class="blog__inner">
+                        <div class="blog__posts">
+                        <div class="blog__post"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRnZop2XF3SbJCDI7quJdrrXTj8n_a-pKzNvQ&usqp=CAU" alt="photo" class="blog__post-img" width="400" height="300">
+                          <p class="blog__excerpt"><a href="#" class="blog__post-link">Show more</a>
+                          </p>
+                        </div>
+                    </div>
+                    <div class="blog__posts">
+                        <div class="blog__post"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGCYzkMXYu6x0haHZQCxOl2-ealJOU09ivEw&usqp=CAU" alt="photo" class="blog__post-img" width="400" height="300">
+                          <p class="blog__excerpt"><a href="#" class="blog__post-link">Show more</a>
+                          </p>
+                        </div>
+                        </div>
+                        <div class="blog__posts">
+                            <div class="blog__post"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQP1y0yvEM__Umpf8jUgRlRVk63jmWtw-bV8g&usqp=CAU" alt="photo" class="blog__post-img" width="400" height="300">
+                              <p class="blog__excerpt"><a href="#" class="blog__post-link">Show more</a>
+                              </p>
+                            </div>
+                        </div>
+                      </div>
+                    </div>
+                </section>
+                               
                 
+                     <section id="education" class="education section">
+                    <div class="container">
+                        <h2 class="section-title">Education</h2>
+                        <div class="table">
+                        <table cellspasing="10">
+                            <thead>
+                                <th>Dates</th>
+                                <th>Work</th>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>1999-2004</td>
+                                    <td>graduated - Kyrgyz State University of Transport Construction and Architecture</td>
+                                </tr>
+                                <tr>
+                                    <td>2004-2006</td>
+                                    <td>worked in - Kyrgyz Community Based Tourism Association</td>
+                                </tr>
+                            </tbody>
+                        </table> 
+                    </div>
+                    </section>   
 
-    
- 
-     <!--<section class="course" id="Completed courses">
-   
-    <h3>Completed courses</h3>
-   
-    </section>
-
-    <section id="Code">
-    <hr>
-    <h3>Code Example 3D Animation</h3>
-    <a href="index1.html" target="_blank">View project</a>
-    </section>
-
-    <section id="Portfolio">
-    <hr>
-    <h3>Portfolio</h3>
-    <ul>
-        <li>Summer Challenge "Full-Stuck Developer"</li>
-        <li>Project "Чойро"</li>
-    </ul>
-    </section>
-
-    <section id="Education">
-        <h3>Education</h3>
-      <table cellspasing="10">
-        <thead>
-            <th>Dates</th>
-            <th>Work</th>
-        </thead>
-        <tbody>
-            <tr>
-                <td>1999-2004</td>
-                <td>graduated - Kyrgyz State University of Transport Construction and Architecture</td>
-            </tr>
-            <tr>
-                <td>2004-2006 </td>
-                <td>worked in - Kyrgyz Community Based Tourism Association</td>
-            </tr>
-        </tbody>
-    </table> 
-    </section>
-    <section id="Languages">
-     <h3>Languages</h3>
-     <ul>
-        <li><b>Kyrgyz</b> &mdash; Native</li>
-        <li><b>Russian</b> &mdash; Good</li>
-        <li><b>English</b> &mdash; Good</li>
-  </ul>
-    </section>
-</main>
-    <hr>
-    <footer>
-        <p>2022 &copy; Nariste Bekboeva <a href="https://github.com/naristebekboeva/naristebekboeva">Me on GitHub, </a> 
-          <a href="https://linktr.ee/jyldyzacademy2020">Jyldyz Academy</a></p>
-      </footer>-->
-
-</body>
-</html>
+                    <section id="languages" class="languages section">
+                        <div class="container">
+                            <h2 class="section-title">Languages</h2>
+                            <ul>
+                                <li><b>Kyrgyz</b> &mdash; Native</li>
+                                <li><b>Russian</b> &mdash; Good</li>
+                                <li><b>English</b> &mdash; Good</li>
+                          </ul>
+                        </section>    
+              </main>
+              <footer class="footer">
+                <div class="container">
+                        <p class="footer__copy"> 2022 &copy; Nariste Bekboeva <a href="https://github.com/naristebekboeva/naristebekboeva">Me on GitHub </a> 
+                        <a href="https://linktr.ee/jyldyzacademy2020">Jyldyz Academy</a></p>
+                  </p>
+                </div>
+              </footer>
+   </body>
+</html>               
+               

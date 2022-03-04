@@ -111,6 +111,7 @@ letter-spacing: 3px;
 .intro-right h1,
 .intro-right h3 {
   margin: 0 0 10px;
+  
 }
  .intro-right p {
  margin: 0;
@@ -161,7 +162,7 @@ text-align: center;
    font-style: normal;
  }
  .code pre {
-   width: 60%;
+   width: 70%;
    margin: 0 auto;
    padding: 10px;
    text-align: left;
@@ -170,3 +171,46 @@ text-align: center;
    background-color: var(--accent);
    border-radius: 6px;
  }
+ .portfolio {
+  text-align: center;
+  color: var(--pure-white);
+  background-color: var(--accent)
+ }
+ .blog__inner {
+  padding: 15px 0;
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+  align-items: center;
+  
+ }
+ .blog__post-link {
+   color: var(--pure-white);
+ }
+
+ .education{
+  margin-top: 40px;
+  text-align: center;
+  color: var(--pure-white);
+  background-color: var(--accent)
+ }
+ .table {
+   width: 70%;
+   margin: 0 auto;
+   padding: 10px;
+   text-align: left;
+   font-size: 1.5em;
+   color: var(--pure-white);
+   background-color: var(--accent);
+   border-radius: 6px;
+   }
+   .languages ul {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 1.3em;
+   }
