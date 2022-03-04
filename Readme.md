@@ -1,2 +1,2 @@
- # Deployed Link
+ # Porfolio
   https://naristebekboeva.github.io/Rezume/
